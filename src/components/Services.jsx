@@ -4,11 +4,10 @@ import { check } from "../assets";
 import stats from "../assets/stats.png";
 import mascot from "../assets/mascot.png";
 import wrld from "../assets/wrld.webp";
-import { brainwaveServices } from "../constants";
+import { aabarServices } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
-  VideoBar,
   VideoChatMessage,
 } from "./design/Services";
 
@@ -41,7 +40,7 @@ const Services = () => {
                 Monitor your wells in real-time with useful statistics
               </p>
               <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
+                {aabarServices.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
