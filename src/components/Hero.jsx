@@ -47,7 +47,7 @@ const Hero = () => {
               with our comprehensive solution.
             </p>
             <Button href="/demo" white>
-              Request a Demo
+              Go to dashboard
             </Button>
           </div>
           
